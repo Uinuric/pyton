@@ -11,5 +11,7 @@ if res > 0:
     # var_input3 = 5
     var_input3 = int(input("Введите количество сотрудников "))
     print(f"Ваша прибыль в расчете на 1 сотрудника  {res / var_input3}")
+elif res == 0:
+    print(f"Вы остались без прибыли {var_input1} = {var_input2}")
 else:
     print(f"Вы в минусе на {res}")
